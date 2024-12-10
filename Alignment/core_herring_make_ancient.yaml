@@ -126,38 +126,9 @@ Options:
 
 # Map of prefixes (ref genomes) by name
 Prefixes:
-    # ref genome name, is used in summary statistics and as part of output filenames.
- # Wal_mt:
- #   Path: /projects/cees/databases/walrus/Orosv1mt.fasta
    Her_nu:
-#    Path: /usit/abel/u1/bastiaas/databases/herring/GCA_000966335.1_ASM96633v1_genomic.fasta
      Path: /cluster/projects/nn9244k/databases/herring/ref_genome/Ch_v2.0.2.fasta
    Her_mt:
      Path: /cluster/projects/nn9244k/databases/herring/ref_genome/MT.her.fasta
-#    SW_nu:
-#      Path: /cluster/projects/nn9244k/in_progress/lane/spermwhale_data/ref_genome/PhyCat2.1.fasta
-#    PhyCat_mt:
-#      Path: /cluster/projects/nn9244k/in_progress/lane/spermwhale_data/ref_genome/NC_002503.2.MT.fasta
-
-#  Hoo_s_mt:
-#    Path: /projects/cees/databases/walrus/c.cristata.mt.fasta
-#  Gre_s_mt:
-#    Path: /projects/cees/databases/walrus/h.grypus.mt.fasta
-#  Rin_s_mt:
-#    Path: /projects/cees/databases/walrus/p.hispida.mt.fasta
-#  Har_s_mt:
-#    Path: /projects/cees/databases/walrus/p.vitulina.mt.fasta
-#  Human:
-#    Path: /projects/cees/databases/homo_sapiens_genome/ordered_dataset/human_genome.fasta
-
-
-    # (Optional) Uncomment and replace 'PATH_TO_BEDFILE' with the path to a
-    # .bed file listing extra regions for which coverage / depth statistics
-    # should be calculated; if no names are specified for the BED records,
-    # results are named after the chromosome / contig. Change 'NAME' to the
-    # name to be used in summary statistics and output filenames.
-#    RegionsOfInterest:
-#      NAME: PATH_TO_BEDFILE
-
 
 
